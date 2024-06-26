@@ -1,0 +1,13 @@
+{
+  "name": "playwright-test",
+  "scripts": {
+    "test": "npm run test --workspace=@test/playwright",
+    "start": "npm run start --workspace=example"
+  },
+  "workspaces": [
+    "packages/playwright",
+    "packages/foobar-cjs",
+    "packages/foobar-esm",
+    "packages/example"
+  ]
+}

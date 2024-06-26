@@ -1,0 +1,16 @@
+{
+  "name": "foobar-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "foobar-cjs": "*"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "foobar-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "foobar-cjs": "*"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
